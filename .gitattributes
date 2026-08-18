@@ -1,0 +1,9 @@
+# Keep text files consistent across Windows and GitHub.
+*.json text eol=lf
+*.lock text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.mp4 filter=lfs diff=lfs merge=lfs -text
